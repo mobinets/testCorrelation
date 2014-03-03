@@ -1,0 +1,30 @@
+#!/usr/bin/perl
+use threads;
+
+my @threads;
+my $Tcount=0;
+
+$ihex = "main.ihex";
+$tosboot = "tosboot.ihex";
+$info = `motelist -usb > motelist.txt`;
+$path = "build/telosb/";
+$prePort = "/dev/ttyUSB";
+
+@port = ($prePort."3", $prePort."20", $prePort."4", $prePort."18");
+@nid = ("0","1","4","5");
+
+sub ext(){
+my ($cmd)=@_;
+system("$cmd");
+}
+
+for ($i=0;$i<4;$i++){
+     $cmd = "java net.tinyos.tools.PrintfClient -comm serial\@$port[$i]:telosb > log/node$nid[$i].log";
+     print "$cmd\n";
+     #system("$cmd");
+     $threads[$Tcount++]=threads->new(\&ext,$cmd);
+}
+
+foreach my $thread (@threads){
+ $thread->join();
+}

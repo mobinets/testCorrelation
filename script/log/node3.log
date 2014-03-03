@@ -1,0 +1,84 @@
+Thread[Thread-1,5,main]
+#BP:reset Tx counter now!
+#OTP#START:232636
+#OTP: 1st adv from sink, numPgs=22,numPgsComplete=22
+#BP#TX:3:0:1:6
+#OTP# page0 write done!t=233090
+
+#FAD: metric=10, backoff=41
+#FAD: reqNumAfterBackoff=1
+#BP#TX:3:47:1:7
+#DPTP: page0 send done!t=234037,state=1
+
+#BP#TX:3:47:4:13
+#OTP# page1 write done!t=238831
+
+#BP#TX:3:47:5:21
+#OTP# page2 write done!t=244574
+
+#BP#TX:3:47:9:38
+#OTP# page3 write done!t=257901
+
+#BP#TX:3:47:13:49
+#OTP# page4 write done!t=263184
+
+#BP#TX:3:47:15:54
+#OTP# page5 write done!t=266712
+
+#BP#TX:3:47:17:64
+#OTP# page6 write done!t=270667
+
+#BP#TX:3:47:20:78
+#OTP# page7 write done!t=281275
+
+#BP#TX:3:47:24:87
+#OTP# page8 write done!t=287937
+
+#BP#TX:3:47:27:99
+#OTP# page9 write done!t=294168
+
+#BP#TX:3:47:30:109
+#OTP# page10 write done!t=301289
+
+#FAD: metric=10, backoff=41
+#FAD: reqNumAfterBackoff=1
+#BP#TX:3:84:34:119
+#DPTP: page10 send done!t=308938,state=1
+
+#BP#TX:3:84:37:129
+#OTP# page11 write done!t=313607
+
+#BP#TX:3:84:39:137
+#OTP# page12 write done!t=317782
+
+#BP#TX:3:84:43:151
+#OTP# page13 write done!t=324576
+
+#BP#TX:3:84:44:155
+#OTP# page14 write done!t=326588
+
+#BP#TX:3:84:48:171
+#OTP# page15 write done!t=336454
+
+#BP#TX:3:84:51:187
+#OTP# page16 write done!t=346498
+
+#BP#TX:3:84:58:204
+#OTP# page17 write done!t=359990
+
+#BP#TX:3:84:61:214
+#OTP# page18 write done!t=364018
+
+#BP#TX:3:84:67:225
+#OTP# page19 write done!t=373742
+
+#BP#TX:3:84:68:228
+#OTP# page20 write done!t=375397
+
+#BP#TX:3:84:71:234
+
+#BP#TC:3:206738:46896:50:82
+#OTP: finish image!curPgNum=21,t=378780
+
+
+#BP:reset Tx counter now!

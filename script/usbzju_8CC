@@ -1,0 +1,14 @@
+  Bus Dev USB Path                 Reference  Device           Description
+--- --- ------------------------ ---------- ---------------- -------------------------------------
+  12   8 usb-0000:00:1d.7-3.4     XBS0PTAQ   /dev/ttyUSB2     XBOW Crossbow Telos Rev.B
+  4   10 usb-0000:00:1d.7-3.6     XBS0SIMG   /dev/ttyUSB4     XBOW Crossbow Telos Rev.B
+  8   11 usb-0000:00:1d.7-3.7     XBS0PTF7   /dev/ttyUSB5     XBOW Crossbow Telos Rev.B
+  6   17 usb-0000:00:1d.7-3.1.4.5 XBS1DADT   /dev/ttyUSB9     XBOW Crossbow Telos Rev.B
+  10  18 usb-0000:00:1d.7-3.1.4.6 XBS1DA9U   /dev/ttyUSB10    XBOW Crossbow Telos Rev.B
+  2   19 usb-0000:00:1d.7-3.1.4.7 XBS1DAEC   /dev/ttyUSB11    XBOW Crossbow Telos Rev.B
+  13  32 usb-0000:00:1d.7-3.1.4.1.4.4 XBS1DAAC   /dev/ttyUSB20    XBOW Crossbow Telos Rev.B
+  5   33 usb-0000:00:1d.7-3.1.4.1.4.5 XBPVCEXV   /dev/ttyUSB21    XBOW Crossbow Telos Rev.B
+  9   34 usb-0000:00:1d.7-3.1.4.1.4.6 XBS0PTCC   /dev/ttyUSB22    XBOW Crossbow Telos Rev.B
+  1   35 usb-0000:00:1d.7-3.1.4.1.4.7 XBS0MM93   /dev/ttyUSB23    XBOW Crossbow Telos Rev.B
+  0    9 usb-0000:00:1d.7-3.5     XBS0PSY6   /dev/ttyUSB3     XBOW Crossbow Telos Rev.B
+

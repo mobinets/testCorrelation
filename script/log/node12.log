@@ -1,0 +1,111 @@
+Thread[Thread-1,5,main]
+#BP:reset Tx counter now!
+#OTP#START:232638
+#OTP: 1st adv from sink, numPgs=22,numPgsComplete=22
+#BP#TX:12:0:1:3
+#OTP# page0 write done!t=234777
+
+#FAD: metric=10, backoff=40
+#FAD: reqNumAfterBackoff=1
+#BP#TX:12:21:1:5
+#DPTP: page0 send done!t=236397,state=1
+
+#BP#TX:12:21:4:11
+#OTP# page1 write done!t=242112
+
+#BP#TX:12:21:5:14
+#OTP# page2 write done!t=248343
+
+#BP#TX:12:21:8:19
+#OTP# page3 write done!t=256527
+
+#BP#TX:12:21:10:26
+#OTP# page4 write done!t=261820
+
+#BP#TX:12:21:12:29
+#OTP# page5 write done!t=267685
+
+#FAD: metric=10, backoff=42
+#FAD: reqNumAfterBackoff=1
+#BP#TX:12:23:12:31
+#DPTP: page4 send done!t=268201,state=1
+
+#BP#TX:12:23:13:32
+#OTP# page6 write done!t=271023
+
+#FAD: metric=200, backoff=8
+#FAD: reqNumAfterBackoff=1
+#BP#TX:12:26:13:34
+#DPTP: page6 send done!t=271411,state=1
+
+#FAD: metric=200, backoff=8
+#FAD: reqNumAfterBackoff=1
+#FAD: metric=10, backoff=42
+#FAD: reqNumAfterBackoff=1
+#BP#TX:12:43:13:37
+#DPTP: page5 send done!t=275331,state=1
+
+#BP#TX:12:43:14:43
+#OTP# page7 write done!t=283952
+
+#BP#TX:12:43:15:45
+#OTP# page8 write done!t=288065
+
+#BP#TX:12:43:16:46
+#OTP# page9 write done!t=292991
+
+#BP#TX:12:43:19:51
+#OTP# page10 write done!t=301406
+
+#FAD: metric=10, backoff=45
+#FAD: reqNumAfterBackoff=1
+#BP#TX:12:82:19:52
+#DPTP: page10 send done!t=302134,state=1
+
+#BP#TX:12:82:19:56
+#OTP# page11 write done!t=304973
+
+#BP#TX:12:82:21:67
+#OTP# page12 write done!t=313025
+
+#FAD: metric=10, backoff=42
+#FAD: reqNumAfterBackoff=1
+#BP#TX:12:84:22:70
+#DPTP: page11 send done!t=315453,state=1
+
+#BP#TX:12:84:25:71
+#OTP# page13 write done!t=323776
+
+#BP#TX:12:84:27:81
+#OTP# page14 write done!t=329246
+
+#BP#TX:12:84:32:91
+#OTP# page15 write done!t=342045
+
+#BP#TX:12:84:36:94
+#OTP# page16 write done!t=348623
+
+#FAD: metric=10, backoff=47
+#FAD: reqNumAfterBackoff=1
+#BP#TX:12:120:36:95
+#DPTP: page16 send done!t=349581,state=1
+
+#BP#TX:12:120:37:97
+#OTP# page17 write done!t=353168
+
+#BP#TX:12:120:39:97
+#OTP# page18 write done!t=358781
+
+#BP#TX:12:120:41:99
+#OTP# page19 write done!t=365137
+
+#BP#TX:12:120:43:99
+#OTP# page20 write done!t=371483
+
+#BP#TX:12:120:45:105
+
+#BP#TC:12:186596:51325:200:274
+#OTP: finish image!curPgNum=21,t=375869
+
+
+#BP:reset Tx counter now!

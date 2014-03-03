@@ -1,0 +1,174 @@
+Thread[Thread-1,5,main]
+#BP:reset Tx counter now!
+#OTP#START:229202
+#OTP: 1st adv from sink, numPgs=22,numPgsComplete=22
+#BP#TX:8:0:1:0
+#OTP# page0 write done!t=231657
+
+#FAD: metric=361, backoff=1
+#FAD: reqNumAfterBackoff=2
+#BP#TX:8:47:1:1
+#DPTP: page0 send done!t=232551,state=1
+
+#FAD: metric=195, backoff=9
+#FAD: reqNumAfterBackoff=1
+#FAD: metric=200, backoff=5
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:52:1:1
+#DPTP: page0 send done!t=233256,state=1
+
+#BP#TX:8:52:3:4
+#OTP# page1 write done!t=237343
+
+#FAD: metric=184, backoff=9
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:56:3:5
+#DPTP: page1 send done!t=238380,state=1
+
+#BP#TX:8:56:5:11
+#OTP# page2 write done!t=244796
+
+#FAD: metric=195, backoff=3
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:65:5:12
+#DPTP: page2 send done!t=245456,state=1
+
+#BP#TX:8:65:6:12
+#OTP# page3 write done!t=248381
+
+#FAD: metric=195, backoff=4
+#FAD: reqNumAfterBackoff=1
+#FAD: metric=33, backoff=13
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:117:6:14
+#DPTP: page3 send done!t=250978,state=1
+
+#BP#TX:8:117:6:15
+#OTP# page4 write done!t=252819
+
+#FAD: metric=209, backoff=5
+#FAD: reqNumAfterBackoff=2
+#BP#TX:8:163:6:16
+#DPTP: page4 send done!t=253926,state=1
+
+#FAD: metric=192, backoff=8
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:164:6:20
+#DPTP: page4 send done!t=255860,state=1
+
+#BP#TX:8:164:7:21
+#OTP# page5 write done!t=258839
+
+#FAD: metric=192, backoff=7
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:171:7:23
+#DPTP: page5 send done!t=259921,state=1
+
+#BP#TX:8:171:8:26
+#OTP# page6 write done!t=266389
+
+#FAD: metric=200, backoff=4
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:171:12:36
+#OTP# page7 write done!t=277598
+
+#FAD: metric=10, backoff=41
+#FAD: reqNumAfterBackoff=0
+#FAD: metric=10, backoff=40
+#FAD: reqNumAfterBackoff=0
+#BP#TX:8:213:14:49
+#OTP# page8 write done!t=288286
+
+#BP#TX:8:213:15:54
+#OTP# page9 write done!t=291776
+
+#BP#TX:8:213:16:55
+#OTP# page10 write done!t=296455
+
+#BP#TX:8:213:16:61
+#OTP# page11 write done!t=300405
+
+#FAD: metric=10, backoff=42
+#BP#TX:8:213:16:61
+#DPTP: page10 send done!t=300518,state=1
+
+#FAD: reqNumAfterBackoff=0
+#FAD: metric=200, backoff=9
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:217:16:61
+#DPTP: page10 send done!t=300900,state=1
+
+#FAD: metric=193, backoff=3
+#FAD: reqNumAfterBackoff=1
+#FAD: metric=195, backoff=3
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:238:18:63
+#OTP# page12 write done!t=309953
+
+#FAD: metric=10, backoff=46
+#FAD: reqNumAfterBackoff=0
+#BP#TX:8:256:18:66
+#OTP# page13 write done!t=315694
+
+#FAD: metric=10, backoff=47
+#FAD: reqNumAfterBackoff=0
+#BP#TX:8:303:18:71
+#DPTP: page13 send done!t=319181,state=1
+
+#BP#TX:8:303:20:72
+#OTP# page14 write done!t=324558
+
+#FAD: metric=195, backoff=9
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:305:21:77
+#DPTP: page14 send done!t=327841,state=1
+
+#BP#TX:8:305:23:77
+#OTP# page15 write done!t=330322
+
+#FAD: metric=193, backoff=5
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:308:23:84
+#DPTP: page15 send done!t=336395,state=1
+
+#BP#TX:8:308:25:84
+#OTP# page16 write done!t=340786
+
+#BP#TX:8:308:28:84
+#OTP# page17 write done!t=350197
+
+#BP#TX:8:308:30:84
+#OTP# page18 write done!t=355625
+
+#FAD: metric=195, backoff=6
+#FAD: reqNumAfterBackoff=1
+#FAD: metric=10, backoff=46
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:331:32:87
+#OTP# page19 write done!t=361156
+
+#FAD: metric=10, backoff=43
+#FAD: reqNumAfterBackoff=0
+#BP#TX:8:378:32:88
+#DPTP: page19 send done!t=362410,state=1
+
+#FAD: metric=192, backoff=2
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:379:32:89
+#DPTP: page19 send done!t=364689,state=1
+
+#FAD: metric=145, backoff=4
+#FAD: reqNumAfterBackoff=1
+#BP#TX:8:380:32:91
+#DPTP: page19 send done!t=369045,state=1
+
+#BP#TX:8:380:34:93
+#OTP# page20 write done!t=370752
+
+#BP#TX:8:380:36:98
+
+#BP#TC:8:186866:42188:650:372
+#OTP: finish image!curPgNum=21,t=376792
+
+
+#BP:reset Tx counter now!

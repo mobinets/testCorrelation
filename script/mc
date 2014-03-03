@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export MOTECOM=serial@/dev/ttyUSB$1:telosb
+echo export MOTECOM=serial@/dev/ttyUSB$1:telosb
+

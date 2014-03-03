@@ -1,0 +1,22 @@
+This program is for measuring 1) the link correlation and 2) empirical number of transmissions in reliable broadcast.
+
+Scenario: 
+1) 1 sender and 3 receivers, which forms three links.
+2) Sender side:
+	Broadcast a packet every 2 seconds.
+	The first NUM_FOR_CORR packets are for measuring pairwise link correlations. After that, the sender should cover all receivers with NUM_FOR_TX packets and record the actual number of transmissions.
+3) Receiver side:
+	For packets with a seqno. less than NUM_FOR_CORR, just output bool strings (100101...) to the serial port, where a 1 denotes a received packet and a 0 denotes a missing packet.
+	For packets with a seqno. larger than NUM_FOR_CORR, request for the missing packets (as it should receive a packet in every 2 second).
+	
+Other aspects:
+1) the radio power level is set to be 1.
+2) the packet transmit interval is 2 seconds.
+
+msg types:
+1) data packets(broadcast): nodeid, seqno.
+2) req packets(unicast): nodeid, pseqno.
+
+variables:
+1) rseq: newest received seq.
+2) tseq: the seqno. to transmit.

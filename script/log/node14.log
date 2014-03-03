@@ -1,0 +1,101 @@
+Thread[Thread-1,5,main]
+#BP:reset Tx counter now!
+#BP#TX:14:0:1:3
+#OTP# page0 write done!t=233258
+
+#FAD: metric=196, backoff=8
+#FAD: reqNumAfterBackoff=1
+#BP#TX:14:42:4:7
+#OTP# page1 write done!t=241316
+
+#FAD: metric=10, backoff=44
+#FAD: reqNumAfterBackoff=0
+#BP#TX:14:89:4:8
+#DPTP: page1 send done!t=242595,state=1
+
+#BP#TX:14:89:7:11
+#OTP# page2 write done!t=248307
+
+#BP#TX:14:89:9:17
+#OTP# page3 write done!t=252571
+
+#BP#TX:14:89:10:19
+#OTP# page4 write done!t=257235
+
+#FAD: metric=200, backoff=5
+#FAD: reqNumAfterBackoff=1
+#BP#TX:14:129:10:21
+#DPTP: page4 send done!t=258235,state=1
+
+#BP#TX:14:129:12:26
+#OTP# page5 write done!t=266056
+
+#BP#TX:14:129:14:29
+#OTP# page6 write done!t=271415
+
+#FAD: metric=200, backoff=7
+#FAD: reqNumAfterBackoff=1
+#BP#TX:14:163:14:32
+#DPTP: page6 send done!t=273349,state=1
+
+#BP#TX:14:163:18:36
+#OTP# page7 write done!t=283985
+
+#BP#TX:14:163:19:39
+#OTP# page8 write done!t=288697
+
+#BP#TX:14:163:20:41
+#OTP# page9 write done!t=293793
+
+#FAD: metric=196, backoff=7
+#FAD: reqNumAfterBackoff=1
+#BP#TX:14:168:20:42
+#DPTP: page9 send done!t=294146,state=1
+
+#BP#TX:14:168:24:46
+#OTP# page10 write done!t=301865
+
+#BP#TX:14:168:25:47
+#OTP# page11 write done!t=304974
+
+#FAD: metric=10, backoff=41
+#BP#TX:14:168:25:48
+#DPTP: page11 send done!t=305177,state=1
+
+#FAD: reqNumAfterBackoff=0
+#BP#TX:14:168:28:59
+#OTP# page12 write done!t=317619
+
+#BP#TX:14:168:29:64
+#OTP# page13 write done!t=320171
+
+#FAD: metric=10, backoff=46
+#FAD: reqNumAfterBackoff=1
+#BP#TX:14:168:34:70
+#OTP# page14 write done!t=329760
+
+#BP#TX:14:168:40:73
+#OTP# page15 write done!t=340781
+
+#BP#TX:14:168:45:89
+#OTP# page16 write done!t=348615
+
+#BP#TX:14:168:47:90
+#OTP# page17 write done!t=353401
+
+#BP#TX:14:168:50:95
+#OTP# page18 write done!t=359097
+
+#BP#TX:14:168:52:97
+#OTP# page19 write done!t=363544
+
+#BP#TX:14:168:54:99
+#OTP# page20 write done!t=370293
+
+#BP#TX:14:168:55:104
+
+#BP#TC:14:195128:52507:175:117
+#OTP: finish image!curPgNum=21,t=376814
+
+
+#BP:reset Tx counter now!
